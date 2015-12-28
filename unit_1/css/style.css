@@ -2,16 +2,3 @@ body{background-color:#131923;}
 h1, p {color:#ff6666;.my-icon {
     position: relative;
 }
-.my-icon > i {
-    position: absolute;
-    display: inline-block;
-    width: 0;
-    height: 0;
-    line-height: 0;
-    border: 1.5em solid #ff6666;
-    border-bottom: 1.5em solid #ff6666;
-    left: 0em;
-    top: 0em;
-}
-
-
