@@ -27,8 +27,6 @@ p
 	font-family: 'Source Code Pro', sans-serif;	
 	color: white;
 	font-size: 70px;
-	margin: 5px;
-	padding: 5px;
 }
 
 section img
@@ -40,12 +38,11 @@ section img
 p {
 	font-family: 'Source Code Pro', sans-serif;	
 	color: white;
-	font-size: 30px;
-	margin: 2px;
-	padding: 2px;
+	font-size: 20px;
 	background-color: #4D5251;
 	height: 308.25px;
 	width: 308.25px;
+	border: solid 2px red;
 }
 
 .small-left 
