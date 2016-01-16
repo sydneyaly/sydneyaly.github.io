@@ -7,13 +7,15 @@ h1 {font-size: 30px;}
 h2{font-size: 20px}
 p{
 font-family: 'Muli', sans-serif;
-font-size: 16px;
+font-size: 20px;
 line-height: 1.5em;
 margin: 1.5em;
 }
 
 section img {
 	display: block;
+	margin: 5px;
+	/*padding: 5px;*/
 }
 
 .small-left {
@@ -22,7 +24,7 @@ section img {
 
 .large {
 	float: left;
-	background-color: yellow;
+	background-color: #4D5251;
 	height: 616.5px;
 	width: 616.5px;
 }
