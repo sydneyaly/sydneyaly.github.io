@@ -32,15 +32,22 @@ p
 	padding: 5px;
 }
 
-section img 
+section img
 {
 	display: block;
-	margin: 6px;
 }
+
+/*.section-1
+{
+	margin: 6px;
+	padding: 6px;
+}*/
 
 .small-left 
 {
 	float: left;
+	margin: 2px;
+	padding: 2px;
 }
 
 .large 
@@ -49,11 +56,15 @@ section img
 	background-color: #4D5251;
 	height: 616.5px;
 	width: 616.5px;
+	margin: 2px;
+	padding: 2px;
 }
 
 .small-right 
 {
 	float: left;
+	margin: 2px;
+	padding: 2px;
 }
 
 .large-left-2
