@@ -37,12 +37,6 @@ section img
 	display: block;
 }
 
-/*.section-1
-{
-	margin: 6px;
-	padding: 6px;
-}*/
-
 .small-left 
 {
 	float: left;
@@ -72,6 +66,8 @@ section img
 	float: left;
 	height: 616.5px;
 	width: 616.5px;
+	margin: 2px;
+	padding: 2px;
 }
 
 .small-middle-2
@@ -79,6 +75,8 @@ section img
 	float: left;
 	height: 308.25px;
 	width: 308.25px;
+	margin: 2px;
+	padding: 2px;
 }
 
 .small-right-2
@@ -86,4 +84,33 @@ section img
 	float: left;
 	height: 308.25px;
 	width: 308.25px;
+	margin: 2px;
+	padding: 2px;
+}
+
+.small-left-3
+{
+	float: left;
+	height: 308.25px;
+	width: 308.25px;
+	margin: 2px;
+	padding: 2px;	
+}
+
+.small-middle-3
+{
+	float: left;
+	height: 308.25px;
+	width: 308.25px;
+	margin: 2px;
+	padding: 2px;
+}
+
+.large-right-3
+{
+	float: left;
+	height: 616.5px;
+	width: 616.5px;
+	margin: 2px;
+	padding: 2px;
 }
