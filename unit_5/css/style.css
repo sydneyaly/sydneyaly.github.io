@@ -1,34 +1,78 @@
 @import url(https://fonts.googleapis.com/css?family=Muli);
-body{background-color:#131930;}
-h1,h2, p {
-font-family: 'Muli', sans-serif;
-color:#ff6666;}
-h1 {font-size: 30px;}
-h2{font-size: 20px}
-p{
-font-family: 'Muli', sans-serif;
-font-size: 20px;
-line-height: 1.5em;
-margin: 1.5em;
+/*@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);*/
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300);
+
+body
+{
+	background-color:#131930;
 }
 
-section img {
-	display: block;
+h1,h2,p
+{
+	font-family: 'Muli', sans-serif;
+	color:#ff6666;
+}
+
+h1 
+{
+	font-size: 30px;
+}
+
+h2
+{
+	font-size: 20px
+}
+
+p
+{
+	font-family: 'Source Code Pro', sans-serif;	
+	color: white;
+	font-size: 70px;
 	margin: 5px;
-	/*padding: 5px;*/
+	padding: 5px;
 }
 
-.small-left {
+section img 
+{
+	display: block;
+	margin: 6px;
+}
+
+.small-left 
+{
 	float: left;
 }
 
-.large {
+.large 
+{
 	float: left;
 	background-color: #4D5251;
 	height: 616.5px;
 	width: 616.5px;
 }
 
-.small-right {
+.small-right 
+{
 	float: left;
+}
+
+.large-left-2
+{
+	float: left;
+	height: 616.5px;
+	width: 616.5px;
+}
+
+.small-middle-2
+{
+	float: left;
+	height: 308.25px;
+	width: 308.25px;
+}
+
+.small-right-2
+{
+	float: left;
+	height: 308.25px;
+	width: 308.25px;
 }
