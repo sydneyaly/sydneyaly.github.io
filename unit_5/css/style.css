@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Muli);
-/*@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);*/
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300);
 
 body
@@ -35,6 +34,15 @@ p
 section img
 {
 	display: block;
+}
+
+.section-2
+p {
+	font-family: 'Source Code Pro', sans-serif;	
+	color: white;
+	font-size: 30px;
+	margin: 5px;
+	padding: 5px;
 }
 
 .small-left 
@@ -77,6 +85,18 @@ section img
 	width: 308.25px;
 	margin: 2px;
 	padding: 2px;
+}
+
+.small-middle-2
+p
+{
+	border: solid 8px red;
+	background-color: #4D5251;
+	height: 308.25;
+	width: 308.25;
+	margin: 2px;
+	padding: 2px;
+	float: left;
 }
 
 .small-right-2
