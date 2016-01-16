@@ -48,8 +48,8 @@ p {
 .small-left 
 {
 	float: left;
-	margin: 2px;
-	padding: 2px;
+/*	margin: 2px;
+	padding: 2px;*/
 }
 
 .large 
@@ -58,15 +58,15 @@ p {
 	background-color: #4D5251;
 	height: 616.5px;
 	width: 616.5px;
-	margin: 2px;
-	padding: 2px;
+	/*margin: 2px;
+	padding: 2px;*/
 }
 
 .small-right 
 {
 	float: left;
-	margin: 2px;
-	padding: 2px;
+	/*margin: 2px;
+	padding: 2px;*/
 }
 
 .large-left-2
@@ -74,8 +74,8 @@ p {
 	float: left;
 	height: 616.5px;
 	width: 616.5px;
-	margin: 2px;
-	padding: 2px;
+/*	margin: 2px;
+	padding: 2px;*/
 }
 
 .small-middle-2
@@ -84,8 +84,6 @@ p {
 	background-color: #4D5252;
 	height: 308.25px;
 	width: 308.25px;
-	margin: 2px;
-	padding: 2px;
 }
 
 .small-right-2
@@ -93,8 +91,8 @@ p {
 	float: left;
 	height: 308.25px;
 	width: 308.25px;
-	margin: 2px;
-	padding: 2px;
+/*	margin: 2px;
+	padding: 2px;*/
 }
 
 /*.small-left-3
