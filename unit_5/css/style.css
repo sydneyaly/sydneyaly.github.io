@@ -41,8 +41,11 @@ p {
 	font-family: 'Source Code Pro', sans-serif;	
 	color: white;
 	font-size: 30px;
-	margin: 5px;
-	padding: 5px;
+	margin: 2px;
+	padding: 2px;
+	background-color: #4D5251;
+	height: 308.25px;
+	width: 308.25px;
 }
 
 .small-left 
@@ -81,22 +84,11 @@ p {
 .small-middle-2
 {
 	float: left;
+	background-color: #4D5252;
 	height: 308.25px;
 	width: 308.25px;
 	margin: 2px;
 	padding: 2px;
-}
-
-.small-middle-2
-p
-{
-	border: solid 8px red;
-	background-color: #4D5251;
-	height: 308.25;
-	width: 308.25;
-	margin: 2px;
-	padding: 2px;
-	float: left;
 }
 
 .small-right-2
@@ -108,7 +100,7 @@ p
 	padding: 2px;
 }
 
-.small-left-3
+/*.small-left-3
 {
 	float: left;
 	height: 308.25px;
@@ -133,4 +125,4 @@ p
 	width: 616.5px;
 	margin: 2px;
 	padding: 2px;
-}
+}*/
