@@ -20,26 +20,13 @@ section img {
 	float: left;
 }
 
-.quote {
+.large {
+	float: left;
+	background-color: yellow;
 	height: 616.5px;
 	width: 616.5px;
-	background-color: #5D5D5D;
-}
-
-.large {
-	background-color: blue;
-	/*padding: 1em 1em;*/
-	/*margin: 1em 1em;*/
-	/*border: 1em;*/
-	/*height: 70%;*/
-	/*width: 70%;*/
-	float: left;
-	/*border: solid 8px red;*/
 }
 
 .small-right {
-	/*height: 70%;*/
-	/*width: 70%;*/
 	float: left;
-	/*border: solid 8px red;*/
 }
