@@ -102,13 +102,14 @@ p {
 	border: solid purple 2px;
 }
 
-/*.small-left-3
+.small-left-3
 {
 	float: left;
 	height: 308.25px;
 	width: 308.25px;
-	margin: 2px;
-	padding: 2px;	
+	/*margin: 2px;*/
+	/*padding: 2px;	*/
+	border: solid red 2px;
 }
 
 .small-middle-3
@@ -116,11 +117,11 @@ p {
 	float: left;
 	height: 308.25px;
 	width: 308.25px;
-	margin: 2px;
-	padding: 2px;
+	/*margin: 2px;*/
+	/*padding: 2px;*/
 }
 
-.large-right-3
+/*.large-right-3
 {
 	float: left;
 	height: 616.5px;
