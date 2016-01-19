@@ -38,11 +38,13 @@ section img
 p {
 	font-family: 'Source Code Pro', sans-serif;	
 	color: white;
-	font-size: 20px;
+	font-size: 42px;
+	text-align: left;
 	background-color: #4D5251;
 	height: 308.25px;
 	width: 308.25px;
-	border: solid 2px red;
+	margin: 0;
+	border: solid red 2px;
 }
 
 .small-left 
@@ -50,6 +52,7 @@ p {
 	float: left;
 /*	margin: 2px;
 	padding: 2px;*/
+	border: solid blue 2px;
 }
 
 .large 
@@ -60,6 +63,7 @@ p {
 	width: 616.5px;
 	/*margin: 2px;
 	padding: 2px;*/
+	border: solid orange 2px;
 }
 
 .small-right 
@@ -67,6 +71,7 @@ p {
 	float: left;
 	/*margin: 2px;
 	padding: 2px;*/
+	border: solid green 2px;
 }
 
 .large-left-2
@@ -76,13 +81,15 @@ p {
 	width: 616.5px;
 /*	margin: 2px;
 	padding: 2px;*/
+	border: solid purple 2px;
 }
 
 .small-middle-2
 {
 	float: left;
-	height: 308.25px;
-	width: 308.25px;
+	/*height: 308.25px;*/
+	/*width: 308.25px;*/
+	border: solid aqua 2px;
 }
 
 .small-right-2
@@ -92,6 +99,7 @@ p {
 	width: 308.25px;
 /*	margin: 2px;
 	padding: 2px;*/
+	border: solid purple 2px;
 }
 
 /*.small-left-3
