@@ -44,7 +44,7 @@ p {
 	height: 308.25px;
 	width: 308.25px;
 	margin: 0;
-	outline: solid red 2px;
+	/*outline: solid red 2px;*/
 }
 
 .section-3
@@ -57,7 +57,7 @@ p {
 	height: 308.25px;
 	width: 308.25px;
 	margin: 0;
-	outline: solid yellow 2px;
+	/*outline: solid yellow 2px;*/
 	line-height: 1.5em;
 }
 
@@ -66,7 +66,7 @@ p {
 	float: left;
 /*	margin: 2px;
 	padding: 2px;*/
-	outline: solid blue 2px;
+	/*outline: solid blue 2px;*/
 }
 
 .large 
@@ -75,17 +75,17 @@ p {
 	background-color: #4D5251;
 	height: 616.5px;
 	width: 616.5px;
-	/*margin: 2px;
+/*	margin: 2px;
 	padding: 2px;*/
-	outline: solid orange 2px;
+	/*outline: solid orange 2px;*/
 }
 
 .small-right 
 {
 	float: left;
-	/*margin: 2px;
+/*	margin: 2px;
 	padding: 2px;*/
-	outline: solid green 2px;
+	/*outline: solid green 2px;*/
 }
 
 .large-left-2
@@ -95,15 +95,15 @@ p {
 	width: 616.5px;
 /*	margin: 2px;
 	padding: 2px;*/
-	outline: solid purple 2px;
+	/*outline: solid purple 2px;*/
 }
 
 .small-middle-2
 {
 	float: left;
-	/*height: 308.25px;*/
-	/*width: 308.25px;*/
-	outline: solid aqua 2px;
+	height: 308.25px;
+	width: 308.25px;
+	/*outline: solid aqua 2px;*/
 }
 
 .small-right-2
@@ -113,7 +113,7 @@ p {
 	width: 308.25px;
 /*	margin: 2px;
 	padding: 2px;*/
-	outline: solid purple 2px;
+	/*outline: solid purple 2px;*/
 }
 
 .small-left-3
@@ -121,9 +121,9 @@ p {
 	float: left;
 	height: 308.25px;
 	width: 308.25px;
-	/*margin: 2px;*/
-	/*padding: 2px;	*/
-	outline: solid red 2px;
+	/*margin: 2px;
+	padding: 2px;*/	
+	/*outline: solid red 2px;*/
 }
 
 .small-middle-3
@@ -131,8 +131,8 @@ p {
 	float: left;
 	height: 308.25px;
 	width: 308.25px;
-	/*margin: 2px;*/
-	/*padding: 2px;*/
+/*	margin: 2px;
+	padding: 2px;*/
 }
 
 /*.large-right-3
@@ -140,6 +140,6 @@ p {
 	float: left;
 	height: 616.5px;
 	width: 616.5px;
-	margin: 2px;
-	padding: 2px;
-}*/
+*//*	margin: 2px;
+	padding: 2px;*/
+}
