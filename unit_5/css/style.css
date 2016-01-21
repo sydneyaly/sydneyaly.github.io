@@ -44,7 +44,21 @@ p {
 	height: 308.25px;
 	width: 308.25px;
 	margin: 0;
-	border: solid red 2px;
+	outline: solid red 2px;
+}
+
+.section-3
+p {
+	font-family: 'Source Code Pro', sans-serif;	
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	background-color: #4D5251;
+	height: 308.25px;
+	width: 308.25px;
+	margin: 0;
+	outline: solid yellow 2px;
+	line-height: 1.5em;
 }
 
 .small-left 
@@ -52,7 +66,7 @@ p {
 	float: left;
 /*	margin: 2px;
 	padding: 2px;*/
-	border: solid blue 2px;
+	outline: solid blue 2px;
 }
 
 .large 
@@ -63,7 +77,7 @@ p {
 	width: 616.5px;
 	/*margin: 2px;
 	padding: 2px;*/
-	border: solid orange 2px;
+	outline: solid orange 2px;
 }
 
 .small-right 
@@ -71,7 +85,7 @@ p {
 	float: left;
 	/*margin: 2px;
 	padding: 2px;*/
-	border: solid green 2px;
+	outline: solid green 2px;
 }
 
 .large-left-2
@@ -81,7 +95,7 @@ p {
 	width: 616.5px;
 /*	margin: 2px;
 	padding: 2px;*/
-	border: solid purple 2px;
+	outline: solid purple 2px;
 }
 
 .small-middle-2
@@ -89,7 +103,7 @@ p {
 	float: left;
 	/*height: 308.25px;*/
 	/*width: 308.25px;*/
-	border: solid aqua 2px;
+	outline: solid aqua 2px;
 }
 
 .small-right-2
@@ -99,7 +113,7 @@ p {
 	width: 308.25px;
 /*	margin: 2px;
 	padding: 2px;*/
-	border: solid purple 2px;
+	outline: solid purple 2px;
 }
 
 .small-left-3
@@ -109,7 +123,7 @@ p {
 	width: 308.25px;
 	/*margin: 2px;*/
 	/*padding: 2px;	*/
-	border: solid red 2px;
+	outline: solid red 2px;
 }
 
 .small-middle-3
