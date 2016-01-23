@@ -41,6 +41,10 @@ img{
 	height: 300px;
 }
 
+.section-1 p {
+	margin: 0;
+}
+
 .section-2
 p {
 	font-family: 'Source Code Pro', sans-serif;	
@@ -72,7 +76,6 @@ p {
 .small 
 {
 	float: left;
-	height: 308.25px;
 	width: 308.25px;
 /*	margin: 2px;
 	padding: 2px;*/
@@ -93,7 +96,6 @@ img {
 {
 	float: left;
 	background-color: #4D5251;
-	height: 616.5px;
 	width: 616.5px;
 /*	margin: 2px;
 	padding: 2px;*/
