@@ -60,13 +60,9 @@ a:hover {
 
 .section-1
 img{
-	padding: 0px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
 	width: 300px;
-	height: 300px;
-}
-
-.section-1 p {
-	margin: 0;
+	/*height: 300px;*/
 }
 
 .section-2
@@ -121,6 +117,7 @@ img {
 	float: left;
 	background-color: #4D5251;
 	width: 616.5px;
+	/*padding: 5px 5px 5px 5px;*/
 /*	margin: 2px;
 	padding: 2px;*/
 	/*outline: solid orange 2px;*/
