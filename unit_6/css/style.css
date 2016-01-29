@@ -1,12 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Muli);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300);
 
+*{box-sizing:border-box;}
+
 body
 {
 	background-color:#131930;
 }
 
-h1,h2,p
+h1,h2
 {
 	font-family: 'Muli', sans-serif;
 	color:#ff6666;
@@ -20,18 +22,6 @@ h1
 h2
 {
 	font-size: 20px
-}
-
-p
-{
-	font-family: 'Source Code Pro', sans-serif;	
-	color: white;
-	font-size: 70px;
-}
-
-section img
-{
-	display: block;
 }
 
 nav
@@ -54,77 +44,65 @@ a:hover {
 	background-color: blue;
 }
 
-.clearfix {
+section
+img{
+	padding: 5px 5px 5px 5px;
+	width: 100%;
+	display: block;
+}
+
+
+.clearfix:after {
+	height:0;
+	font-size: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
 	clear: both;
 }
 
-.section-1
-img{
-	padding: 5px 5px 5px 5px;
-	width: 300px;
-	/*height: 300px;*/
+.small 
+{
+	float: left;
+	height: 616px;
+	width: 308px;
+	overflow: hidden;
 }
 
-.section-2
-p {
-	font-family: 'Source Code Pro', sans-serif;	
-	color: white;
-	font-size: 42px;
-	text-align: left;
-	background-color: #4D5251;
-	height: 308.25px;
-	width: 308.25px;
-	margin: 0;
-	/*outline: solid red 2px;*/
-}
-
-.section-3
+.small
 p {
 	font-family: 'Source Code Pro', sans-serif;	
 	color: white;
 	font-size: 30px;
 	text-align: left;
 	background-color: #4D5251;
-	height: 308.25px;
-	width: 308.25px;
 	margin: 0;
-	/*outline: solid yellow 2px;*/
 	line-height: 1.5em;
-	float: left;
+	width:308px;
+	height: 50%;
 }
 
-.small 
+.editimg
 {
-	float: left;
-	width: 308.25px;
-/*	margin: 2px;
-	padding: 2px;*/
-	/*outline: solid blue 2px;*/
-}
-
-.small
-p {
-	float: left;
-}
-
-.small
-img {
-	float:left;
+	width:auto;
+	height:50%;
 }
 
 .large 
 {
 	float: left;
-	background-color: #4D5251;
-	width: 616.5px;
-	/*padding: 5px 5px 5px 5px;*/
-/*	margin: 2px;
-	padding: 2px;*/
-	/*outline: solid orange 2px;*/
+	/*background-color: #4D5251;*/
+	width: 616px;
+	height: 616px;
 }
 
-
-
-
-
+.large 
+p {
+	font-family: 'Source Code Pro', sans-serif;	
+	color: white;
+	font-size: 42px;
+	text-align: left;
+	background-color: #4D5251;
+	margin: 0;
+}
 
