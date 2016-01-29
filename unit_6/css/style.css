@@ -46,11 +46,11 @@ a:hover {
 
 section
 img{
-	padding: 5px 5px 5px 5px;
+	padding: 5px;
+	margin: 5px;
 	width: 100%;
 	display: block;
 }
-
 
 .clearfix:after {
 	height:0;
@@ -76,7 +76,7 @@ p {
 	font-size: 30px;
 	text-align: left;
 	background-color: #4D5251;
-	margin: 0;
+	margin: 5px;
 	line-height: 1.5em;
 	width:308px;
 	height: 50%;
@@ -91,7 +91,6 @@ p {
 .large 
 {
 	float: left;
-	/*background-color: #4D5251;*/
 	width: 616px;
 	height: 616px;
 }
@@ -103,6 +102,8 @@ p {
 	font-size: 42px;
 	text-align: left;
 	background-color: #4D5251;
-	margin: 0;
+	margin: 5px;
+	width: 616px;
+	height: 100%;
 }
 
