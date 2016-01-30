@@ -49,8 +49,8 @@ a:hover {
 
 section
 img {
-	padding: 12px;
-	margin: 12px;
+	/*padding: 18px;*/
+	margin: 20px;
 	width: 100%;
 	display: block;
 }
@@ -79,18 +79,18 @@ p {
 	font-size: 32px;
 	text-align: left;
 	background-color: #4D5251;
-	margin: 8px;
-	padding: 12px;
+	margin: 20px;
+	/*padding: 12px;*/
 	line-height: 1.5em;
 	width:308px;
 	height: 50%;
 }
 
-.editimg
+/*.editimg
 {
 	width:auto;
 	height:50%;
-}
+}*/
 
 .large 
 {
@@ -106,9 +106,15 @@ p {
 	font-size: 82px;
 	text-align: left;
 	background-color: #4D5251;
-	margin: 8px;
+	margin: 10px;
 	padding: 50px;
 	width: 616px;
 	height: 100%;
+}
+
+.large
+img {
+	margin: 20px;
+	padding: 20px;
 }
 
