@@ -1,20 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Muli);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300);
-/*@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);*/
-/*@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200);*/
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200|Work+Sans|Roboto:100);
 
 *{box-sizing:border-box;}
 
 body
 {
-	/*background-color:#131930;*/
 	background-color: #1a0000;
 }
 
 h1,h2
 {
-	/*font-family: 'Muli', sans-serif;*/
 	font-family: 'Roboto', sans-serif;
 	color:#ff6666;
 }
@@ -32,7 +28,6 @@ h2
 nav
 {
 	background-color: green;
-	/*font-family: arial, sans-serif;*/
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -49,22 +44,6 @@ a
 a:hover {
 	background-color: blue;
 }
-
-/*.hamburger{
-  background:none;
-  position:left;
-  top:0;
-  right:0;
-  line-height:45px;
-  padding:0px 15px 0px 15px;
-  color:#fff;
-  border:0;
-  font-size:1.4em;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-  z-index:10000000000000;
-  }*/
 
 section
 img {
@@ -96,7 +75,6 @@ p {
 	color: #ccc;
 	font-size: 32px;
 	text-align: left;
-	/*background-color: #4D5251;*/
 	background-color: #3a3a3a;
 	margin: 20px;
 	line-height: 1.5em;
@@ -128,7 +106,7 @@ p {
 	float: left;
 	width: 616px;
 	height: 616px;
-	/*background-color: green;*/
+
 }
 
 .large 
@@ -137,7 +115,6 @@ p {
 	color: #ccc;
 	font-size: 82px;
 	text-align: left;
-	/*background-color: #4D5251;*/
 	background-color: #3a3a3a;
 	margin: 10px;
 	padding: 50px;
@@ -156,7 +133,6 @@ img {
 	background-color: #3a3a3a;
 	font-size: 28px;
 	color:#ccc;
-	/*font-family: 'Muli', sans-serif;*/
 	font-family: 'Roboto', sans-serif;
 	margin: 12px;
 	padding: 12px;
