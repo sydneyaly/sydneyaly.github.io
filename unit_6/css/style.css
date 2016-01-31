@@ -48,6 +48,22 @@ a:hover {
 	background-color: blue;
 }
 
+/*.hamburger{
+  background:none;
+  position:left;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  }*/
+
 section
 img {
 	margin: 20px;
@@ -75,7 +91,7 @@ img {
 .small
 p {
 	font-family: 'Roboto', sans-serif;
-	color: white;
+	color: #ccc;
 	font-size: 32px;
 	text-align: left;
 	/*background-color: #4D5251;*/
@@ -116,7 +132,7 @@ p {
 .large 
 p {
 	font-family: 'Roboto', sans-serif;
-	color: white;
+	color: #ccc;
 	font-size: 82px;
 	text-align: left;
 	/*background-color: #4D5251;*/
