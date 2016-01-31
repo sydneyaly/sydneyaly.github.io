@@ -86,11 +86,24 @@ p {
 	height: 50%;
 }
 
-/*.editimg
+#art
 {
-	width:auto;
-	height:50%;
-}*/
+	font-size: 42px;
+	padding: 12px;
+}
+
+#custom
+{
+	font-size: 34px;
+	padding: 12px;
+	margin: 6px;
+}
+
+#ingredients
+{
+	font-size: 38px;
+	padding: 12px;
+}
 
 .large 
 {
