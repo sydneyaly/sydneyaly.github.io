@@ -6,8 +6,8 @@
 
 body
 {
-	/*background-color: #1a0000;*/
-	background-color: #e6e6e6;
+	background-color: #1a0000;
+	/*background-color: #e6e6e6;*/
 }
 
 h1,h2
@@ -74,12 +74,12 @@ img {
 .small
 p {
 	font-family: 'Roboto', sans-serif;
-	/*color: #ccc;*/
-	color: #808080;
+	color: #ccc;
+	/*color: #808080;*/
 	font-size: 32px;
 	text-align: left;
-	/*background-color: #3a3a3a;*/
-	background-color: #cccacc;
+	background-color: #3a3a3a;
+	/*background-color: #cccacc;*/
 	/*margin: 20px;*/
 	line-height: 1.5em;
 	width:308px;
@@ -100,14 +100,14 @@ p {
 #art
 {
 	font-size: 42px;
-	padding: 12px;
+	padding: 0px;
 	margin: 0;
 }
 
 #custom
 {
 	font-size: 34px;
-	padding: 12px;
+	padding: 0px;
 	margin: 0px;
 }
 
@@ -134,12 +134,12 @@ p {
 .large 
 p {
 	font-family: 'Roboto', sans-serif;
-	/*color: #ccc;*/
-	color: #808080;
+	color: #ccc;
+	/*color: #808080;*/
 	font-size: 82px;
 	text-align: left;
-	/*background-color: #3a3a3a;*/
-	background-color: #cccacc;
+	background-color: #3a3a3a;
+	/*background-color: #cccacc;*/
 	/*margin: 10px;*/
 	/*padding: 50px;*/
 	width: 616px;
@@ -149,16 +149,16 @@ p {
 .large
 img {
 	/*margin: 20px;*/
-	padding: 20px;
+	padding: 0px;
 }
 
 .footer
 {
-	/*background-color: #3a3a3a;*/
-	background-color: #cccacc;
+	background-color: #3a3a3a;
+	/*background-color: #cccacc;*/
 	font-size: 28px;
-	/*color:#ccc;*/
-	color: #808080;
+	color:#ccc;
+	/*color: #808080;*/
 	font-family: 'Roboto', sans-serif;
 	margin: 12px;
 	padding: 12px;
