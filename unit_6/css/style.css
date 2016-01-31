@@ -14,7 +14,8 @@ body
 
 h1,h2
 {
-	font-family: 'Muli', sans-serif;
+	/*font-family: 'Muli', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
 	color:#ff6666;
 }
 
@@ -31,7 +32,8 @@ h2
 nav
 {
 	background-color: green;
-	font-family: arial, sans-serif;
+	/*font-family: arial, sans-serif;*/
+	font-family: 'Roboto', sans-serif;
 }
 
 a
@@ -147,5 +149,16 @@ p {
 img {
 	margin: 20px;
 	padding: 20px;
+}
+
+.footer
+{
+	background-color: #3a3a3a;
+	font-size: 28px;
+	color:#ccc;
+	/*font-family: 'Muli', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	margin: 12px;
+	padding: 12px;
 }
 
