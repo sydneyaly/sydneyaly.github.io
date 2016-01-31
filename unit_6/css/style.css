@@ -49,7 +49,7 @@ a:hover {
 
 section
 img {
-	margin: 20px;
+	/*margin: 20px;*/
 	width: 100%;
 	display: block;
 }
@@ -80,31 +80,49 @@ p {
 	text-align: left;
 	/*background-color: #3a3a3a;*/
 	background-color: #cccacc;
-	margin: 20px;
+	/*margin: 20px;*/
 	line-height: 1.5em;
 	width:308px;
 	height: 50%;
+}
+
+#design
+{
+	margin: 0;
+}
+
+#love
+{
+	margin: 0;
+	padding: 0;
 }
 
 #art
 {
 	font-size: 42px;
 	padding: 12px;
+	margin: 0;
 }
 
 #custom
 {
 	font-size: 34px;
 	padding: 12px;
-	margin: 6px;
+	margin: 0px;
 }
 
 #ingredients
 {
 	font-size: 38px;
-	padding: 12px;
+	padding: 0px;
+	margin: 0;
 }
 
+#retro
+{
+	margin: 0;
+	padding: 0;
+}
 .large 
 {
 	float: left;
@@ -122,15 +140,15 @@ p {
 	text-align: left;
 	/*background-color: #3a3a3a;*/
 	background-color: #cccacc;
-	margin: 10px;
-	padding: 50px;
+	/*margin: 10px;*/
+	/*padding: 50px;*/
 	width: 616px;
 	height: 100%;
 }
 
 .large
 img {
-	margin: 20px;
+	/*margin: 20px;*/
 	padding: 20px;
 }
 
