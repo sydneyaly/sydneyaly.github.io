@@ -69,6 +69,9 @@ img {
 	height: 616px;
 	width: 308px;
 	overflow: hidden;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	/*margin-left: 6px;*/
 }
 
 .small
@@ -88,43 +91,46 @@ p {
 
 #design
 {
-	margin: 0;
-/*	margin-top:0px; 
-	margin-right:10px;
-	margin-bottom:10px;
-	margin-left:10px;*/
+	margin: 0px;
+
 }
 
 #love
 {
-	margin: 0;
+	margin-top: 0;
+	margin-right: 6px;
+	margin-bottom: 0;
+	margin-left: 0px;
 	padding: 0;
 }
 
 #art
 {
 	font-size: 42px;
-	padding: 0px;
-	margin: 0;
+	padding: 20px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 6px;
 }
 
 #custom
 {
 	font-size: 34px;
-	padding: 0px;
+	padding: 20px;
 	margin: 0px;
 }
 
 #ingredients
 {
 	font-size: 38px;
-	padding: 0px;
+	padding: 12px;
 	margin: 0;
 }
 
 #retro
 {
-	margin: 0;
+	margin-bottom: 6px;
 	padding: 0;
 }
 .large 
@@ -144,15 +150,9 @@ p {
 	text-align: left;
 	background-color: #3a3a3a;
 	/*background-color: #cccacc;*/
-	/*padding: 50px;*/
+	padding: 50px;
 	width: 616px;
 	height: 100%;
-}
-
-.large
-img {
-	/*margin: 20px;*/
-	padding: 0px;
 }
 
 .footer
