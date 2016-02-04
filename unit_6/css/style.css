@@ -159,11 +159,34 @@ p {
 {
 	background-color: #3a3a3a;
 	/*background-color: #cccacc;*/
-	font-size: 28px;
+	font-size: 20px;
 	color:#ccc;
 	/*color: #808080;*/
 	font-family: 'Roboto', sans-serif;
 	margin: 12px;
 	padding: 12px;
+}
+
+#title
+{
+	color:#ff6666;
+	font-size: 32px;
+}
+
+#subtitle
+{
+	color: #ff6666;
+	font-size: 28;
+}
+
+#instagram
+a
+{
+ color: green;
+}
+
+#facebook
+{
+color: yellow;
 }
 
