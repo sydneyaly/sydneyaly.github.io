@@ -182,14 +182,25 @@ p {
 #instagram
 img
 {
-	width: 80px;
+	width: 70px;
 	float: left;
 }
 
 #facebook
 img
 {
-	width: 75px;
+	width: 70px;
 	float: left;
 }
+
+#email
+img
+{
+	width: 70px;
+	float: left;
+}
+
+
+
+
 
