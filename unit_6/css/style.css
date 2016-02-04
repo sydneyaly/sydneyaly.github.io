@@ -233,12 +233,16 @@ li
 	width: 50px;
 }
 
-#list
-p
+.footer
+a
 {
-	padding:10px;
-	margin: 10px;
+	text-decoration: none;
+	display: inline;
+	float: none;
+	padding: 0;
 }
+
+
 
 
 
