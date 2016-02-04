@@ -180,13 +180,16 @@ p {
 }
 
 #instagram
-a
+img
 {
- color: green;
+	width: 80px;
+	float: left;
 }
 
 #facebook
+img
 {
-color: yellow;
+	width: 75px;
+	float: left;
 }
 
