@@ -69,9 +69,28 @@ img {
 	height: 616px;
 	width: 308px;
 	overflow: hidden;
-	margin-right: 6px;
+	/*margin-right: 6px;*/
 	margin-bottom: 6px;
 	/*margin-left: 6px;*/
+}
+
+.small + .small
+{
+	margin-left: 6px;
+}
+
+.small + .large
+{
+	margin: 0 6px;
+}
+
+.large + .small
+{
+	margin-left: 6px;
+}
+
+.small img:nth-of-type(2){
+	margin-top: 6px;
 }
 
 .small
@@ -118,14 +137,14 @@ p {
 {
 	font-size: 34px;
 	padding: 20px;
-	margin: 0px;
+	margin: 6px 0 0;
 }
 
 #ingredients
 {
 	font-size: 38px;
 	padding: 12px;
-	margin: 0;
+	margin: 0 0 6px;
 }
 
 #retro
@@ -136,8 +155,10 @@ p {
 .large 
 {
 	float: left;
-	width: 616px;
-	height: 616px;
+	width: 622px;
+	height: 622px;
+	overflow:hidden;
+	/*margin: 0 6px;*/
 
 }
 
@@ -150,8 +171,9 @@ p {
 	text-align: left;
 	background-color: #3a3a3a;
 	/*background-color: #cccacc;*/
-	padding: 50px;
-	width: 616px;
+	padding: 50px 50px 0;
+	width: 622px;
+	/*height: 616px;*/
 	height: 100%;
 }
 
