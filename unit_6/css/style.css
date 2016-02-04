@@ -205,29 +205,45 @@ p {
 img
 {
 	width: 70px;
-	float: left;
 }
 
 #facebook
 img
 {
 	width: 70px;
-	float: left;
 }
 
 #email
 img
 {
 	width: 70px;
-	float: left;
 }
 
 #phone
 img
 {
 	width: 70px;
-	float: left;
 }
+
+
+li
+{
+	display: block;
+	float: none;
+	width: 50px;
+}
+
+#list
+p
+{
+	padding:10px;
+	margin: 10px;
+}
+
+
+
+
+
 
 
 
