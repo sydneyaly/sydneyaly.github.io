@@ -201,16 +201,12 @@ p {
 	font-size: 28;
 }
 
-#instagram
+#social
 img
 {
 	width: 70px;
-}
-
-#facebook
-img
-{
-	width: 70px;
+	float: left;
+	margin: 20px;
 }
 
 .footer
