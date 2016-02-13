@@ -190,6 +190,7 @@ p {
 	font-family: 'Roboto', sans-serif;
 	/*margin: 12px;*/
 	padding: 25px;
+	text-align: center;
 }
 
 #title
@@ -204,32 +205,16 @@ p {
 	font-size: 28;
 }
 
-#instagram
+.social
 img
 {
-	width: 70px;
-	float: left;
-	margin: auto;
-	/*background-color: yellow;*/
-
-}
-
-#facebook
-img
-{
-	width: 70px;
-	float: left;
-	margin: auto;
-}
-
-/*.social
-{
-	height: 70px;
+	height:70px;
 	width: 70px;
 	float: none;
 	margin: auto;
-	background-color: yellow;
-}*/
+	/*background-color: yellow;*/
+	display: inline-block;
+}
 
 .footer
 a
@@ -240,8 +225,15 @@ a
 	padding: 0;
 }
 
+p
+{
+	font-family: 'Roboto', sans-serif;
+	/*color:#ff6666;*/
+	color: white;
+	font-size: 20px;
+	text-align: center;
 
-
+}
 
 
 
