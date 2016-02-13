@@ -204,13 +204,13 @@ p {
 	font-size: 28;
 }
 
-/*#instagram
+#instagram
 img
 {
 	width: 70px;
 	float: left;
 	margin: auto;
-	background-color: yellow;
+	/*background-color: yellow;*/
 
 }
 
@@ -220,15 +220,16 @@ img
 	width: 70px;
 	float: left;
 	margin: auto;
-}*/
+}
 
-.social
+/*.social
 {
+	height: 70px;
 	width: 70px;
 	float: none;
 	margin: auto;
 	background-color: yellow;
-}
+}*/
 
 .footer
 a
