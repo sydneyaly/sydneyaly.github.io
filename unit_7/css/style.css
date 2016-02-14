@@ -6,14 +6,16 @@
 
 body
 {
-	background-color: #1a0000;
+	/*background-color: #1a0000;*/
 	/*background-color: #e6e6e6;*/
+	background-color: #f2efec;
 }
 
 h1,h2
 {
 	font-family: 'Roboto', sans-serif;
-	color:#ff6666;
+	/*color:#ff6666;*/
+	color: #8ecdc6;
 }
 
 h1 
@@ -30,18 +32,15 @@ nav
 {
 	font-family: 'Roboto', sans-serif;
 	margin: auto;
-	/*background-color: yellow;*/
 	width: 550px;
 }
 
 a
 {
-	color: white;
+	color: #8ecdc6;
 	text-decoration: none;
 	display: block;
 	padding: 23px;
-	/*text-align: center;*/
-	/*width: 100px;*/
 	float: left;
 
 
@@ -100,12 +99,10 @@ img {
 p {
 	font-family: 'Roboto', sans-serif;
 	color: #ccc;
-	/*color: #808080;*/
 	font-size: 32px;
 	text-align: left;
-	background-color: #3a3a3a;
-	/*background-color: #cccacc;*/
-	/*margin: 20px;*/
+	/*background-color: #3a3a3a;*/
+	background-color: #222326;
 	line-height: 1.5em;
 	width:308px;
 	height: 50%;
@@ -124,6 +121,7 @@ p {
 	margin-bottom: 0;
 	margin-left: 0px;
 	padding: 0;
+	height: 616px;
 }
 
 #art
@@ -172,7 +170,8 @@ p {
 	/*color: #808080;*/
 	font-size: 82px;
 	text-align: left;
-	background-color: #3a3a3a;
+	background-color: #222326;
+	/*background-color: #3a3a3a;*/
 	/*background-color: #cccacc;*/
 	padding: 50px 50px 0;
 	width: 622px;
@@ -182,7 +181,7 @@ p {
 
 .footer
 {
-	background-color: #3a3a3a;
+	background-color: #222326;
 	/*background-color: #cccacc;*/
 	font-size: 20px;
 	color:#ccc;
@@ -195,13 +194,15 @@ p {
 
 #title
 {
-	color:#ff6666;
+	/*color:#ff6666;*/
+	color: #8ecdc6;
 	font-size: 32px;
 }
 
 #subtitle
 {
-	color: #ff6666;
+	/*color: #ff6666;*/
+	color: #8ecdc6;
 	font-size: 28;
 }
 
