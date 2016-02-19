@@ -32,7 +32,8 @@ nav
 {
 	font-family: 'Roboto', sans-serif;
 	margin: auto;
-	width: 550px;
+	/*width: 550px;*/
+	width: 44%;
 }
 
 a
@@ -247,7 +248,7 @@ p
 
 }
 
-@media only screen and (max-width: 1280px){ 
+/*@media only screen and (max-width: 1280px){ 
 section
 {width:900px;} 
 .small{width:219px;
@@ -256,8 +257,26 @@ height: 432px;}
 height: 432px;}
 .large p {width: 438px;
 height: 432px;}
+}*/
+
+@media only screen and (max-width: 100%){
+	section 
+	{width: 70%;
+	}
+	.small{
+		width: 17%;
+		height: 33%;
+	}
+	.large{
+		width: 34%;
+		height: 33%;
+	}
+	.large p {
+		width: 34%;
+		height: 33%;
+	}
 }
-}
+
 
 
 
