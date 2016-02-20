@@ -57,12 +57,6 @@ a:hover
 	background-color: #8cbeb2;
 }
 
-.paragraphs
-p
-{
-color: #97afb6;
-}
-
 section
 {
 	width: 1256px;
@@ -285,9 +279,32 @@ height: 432px;}
 
 /*<a href="http://chriscoyier.net" target="_blank">This link will open in new window/tab</a>*/
 
+/*.content_image
+{ 
+   position: relative; 
+   width: 100%;
+   opacity: 0.4;
+}
 
+h5 { 
+   position: absolute; 
+   top: 1px;
+   bottom: 1px;
+   left: 0; 
+   width: 100%; 
+   padding: 20px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 56px;
+   font-weight: 100;
+   color: #f2f2f2;
+}
 
-
+h5 span { 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);
+}
+*/
 
 
 
