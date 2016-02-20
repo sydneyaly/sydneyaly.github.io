@@ -12,7 +12,7 @@ body
 h1,h2
 {
 	font-family: 'Roboto', sans-serif;
-	color: #f2a285;
+	color: #97afb6;
 }
 
 h1 
@@ -29,12 +29,12 @@ nav
 {
 	font-family: 'Roboto', sans-serif;
 	margin: auto;
-	width: 550px;
+	width: 500px;
 }
 
 a
 {
-	color: #f2a285;
+	color: #97afb6;
 	text-decoration: none;
 	display: block;
 	padding: 23px;
@@ -46,19 +46,19 @@ a
 nav
 a:hover 
 {
-	background-color: #f2c894;
+	background-color: #ceb3af;
 }
 
 p
 a:hover
 {
-	background-color: #f2c894;
+	background-color: #ceb3af;
 }
 
 .paragraphs
 p
 {
-color: #f2a285;
+color: #97afb6;
 }
 
 section
@@ -102,7 +102,7 @@ p {
 	color: #f2f2f2;
 	font-size: 32px;
 	text-align: left;
-	background-color: #a3bfaf;
+	background-color: #817e75;
 	line-height: 1.5em;
 	width:308px;
 	height: 50%;
@@ -169,7 +169,7 @@ p {
 	color: #f2f2f2;
 	font-size: 82px;
 	text-align: left;
-	background-color: #a3bfaf;
+	background-color: #817e75;
 	padding: 40px;
 	width: 622px;
 	height: 616px;
@@ -177,7 +177,7 @@ p {
 
 .footer
 {
-	background-color: #a3bfaf;
+	background-color: #817e75;
 	font-size: 20px;
 	color:#ccc;
 	font-family: 'Roboto', sans-serif;
@@ -189,13 +189,13 @@ p {
 
 #title
 {
-	color: #f2f2f2;
+	color: #97afb6;
 	font-size: 32px;
 }
 
 #subtitle
 {
-	color: #f2f2f2;
+	color: #97afb6;
 	font-size: 28;
 }
 
@@ -256,6 +256,32 @@ height: 432px;}
 	}
 }
 
+/*.btn {
+  background: #a3bfaf;
+  background-image: -webkit-linear-gradient(top, #a3bfaf, #a3bfaf);
+  background-image: -moz-linear-gradient(top, #a3bfaf, #a3bfaf);
+  background-image: -ms-linear-gradient(top, #a3bfaf, #a3bfaf);
+  background-image: -o-linear-gradient(top, #a3bfaf, #a3bfaf);
+  background-image: linear-gradient(to bottom, #a3bfaf, #a3bfaf);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 200px;
+  float: right;
+}
+
+.btn:hover {
+  background: #f2a285;
+  text-decoration: none;
+}
+*/
+
+/*<a href="http://chriscoyier.net" target="_blank">This link will open in new window/tab</a>*/
 
 
 
