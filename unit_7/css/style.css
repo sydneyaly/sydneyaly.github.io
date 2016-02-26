@@ -234,21 +234,52 @@ height: 432px;}
 height: 432px;}
 }*/
 
-@media only screen and (max-width: 100%){
+@media only screen and (max-width: 1300px){
 	section 
-	{width: 70%;
+	{width: 900px;
 	}
 	.small{
-		width: 17%;
-		height: 33%;
+		width: 219px;
+		height: 444px;
 	}
 	.large{
-		width: 34%;
-		height: 33%;
+		width: 444px;
+		height: 444px;
 	}
 	.large p {
-		width: 34%;
-		height: 33%;
+		width: 444px;
+		height: 444px;
+		font-size: 48px;
+	}
+	.small p {
+		width: 219px;
+		height: 219px;
+	}
+	#ingredients {
+		font-size: 16px;
+	}
+	#love {
+		height: 444px;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.large {
+		width: 600px; 
+		height: auto;
+		overflow: auto;
+	}
+	.large p {
+		width: 600px;
+	}
+	section {
+		width: 606px;
+	}
+	.small {
+		width: 600px;
+	}
+	.small p {
+		width: 600px;
 	}
 }
 
