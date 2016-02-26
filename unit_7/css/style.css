@@ -8,7 +8,6 @@
 body
 {
 	background-color: #f2ebbf;
-	/*background-color: #f2f2f2;*/
 }
 
 h1,h2
@@ -21,19 +20,18 @@ h1,h2
 h1 
 {
 	font-size: 30px;
-	font-weight: 900;
 }
 
 h2
 {
-	font-size: 20px;
+	font-size: 20px
 }
 
 nav
 {
 	font-family: 'Roboto', sans-serif;
 	margin: auto;
-	width: 628px;
+	width: 500px;
 }
 
 a
@@ -41,10 +39,9 @@ a
 	color: #f06060;
 	text-decoration: none;
 	display: block;
-	padding: 25px;
+	padding: 23px;
 	float: left;
 	font-weight: 900;
-	font-size: 24px;
 }
 
 nav
@@ -84,17 +81,8 @@ img {
 .small 
 {
 	float: left;
-	height: 308px;
+	height: 616px;
 	width: 308px;
-	overflow: hidden;
-	margin: 0 3px 6px;
-}
-
-#smaller
-{
-	float: left;
-	height: 308px;
-	width: 308%;
 	overflow: hidden;
 	margin: 0 3px 6px;
 }
@@ -110,8 +98,7 @@ p {
 	color: #f2f2f2;
 	font-size: 32px;
 	text-align: left;
-	background-color: #5c4b51;
-	/*background-color: black;*/
+	background-color: #5c4b41;
 	line-height: 1.5em;
 	width:308px;
 	height: 50%;
@@ -178,8 +165,7 @@ p {
 	color: #f2f2f2;
 	font-size: 82px;
 	text-align: left;
-	background-color: #564b51;
-	/*background-color: black;*/
+	background-color: #564b41;
 	padding: 40px;
 	width: 622px;
 	height: 616px;
@@ -187,8 +173,7 @@ p {
 
 .footer
 {
-	background-color: #5c4b51;
-	/*background-color: black;*/
+	background-color: #5c4b41;
 	font-size: 20px;
 	color:#ccc;
 	font-family: 'Roboto', sans-serif;
