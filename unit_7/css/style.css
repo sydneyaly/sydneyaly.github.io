@@ -1,5 +1,3 @@
-/*@import url(https://fonts.googleapis.com/css?family=Muli);*/
-/*@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300);*/
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200|Work+Sans|Roboto:100);
 @import url(https://fonts.googleapis.com/css?family=Roboto:900);
 
@@ -223,17 +221,6 @@ p
 
 }
 
-/*@media only screen and (max-width: 1280px){ 
-section
-{width:900px;} 
-.small{width:219px;
-height: 432px;}
-.large{width: 438px;
-height: 432px;}
-.large p {width: 438px;
-height: 432px;}
-}*/
-
 @media only screen and (max-width: 1300px){
 	section 
 	{width: 900px;
@@ -241,6 +228,10 @@ height: 432px;}
 	.small{
 		width: 219px;
 		height: 444px;
+	}
+	.small p {
+		width: 219px;
+		height: 219px;
 	}
 	.large{
 		width: 444px;
@@ -251,29 +242,41 @@ height: 432px;}
 		height: 444px;
 		font-size: 48px;
 	}
-	.small p {
-		width: 219px;
-		height: 219px;
+	.footer {
+		width: 900px;
 	}
-	#ingredients {
-		font-size: 16px;
+	#social {
+		margin: auto;
+	}
+	#design{
+		font-size: 56px;
+	}
+	#art {
+		font-size: 28px;
 	}
 	#love {
 		height: 444px;
 	}
+	#custom {
+		font-size: 26px;
+	}
+	#ingredients {
+		font-size: 26px;
+	}
+	#retro {
+		
+	}
+	h1 {
+		font-size: 22px;
+	}
+	h2 {
+		font-size: 18px;
+	}
 }
 
 @media only screen and (max-width: 980px) {
-	.large {
-		width: 600px; 
-		height: auto;
-		overflow: auto;
-	}
-	.large p {
-		width: 600px;
-	}
-	section {
-		width: 606px;
+	section 
+	{width: 606px;
 	}
 	.small {
 		width: 600px;
@@ -281,61 +284,16 @@ height: 432px;}
 	.small p {
 		width: 600px;
 	}
+	.large {
+		width: 600px; 
+	}
+	.large p {
+		width: 600px;
+	}
+	.footer {
+		width: 606px;
+	}
 }
-
-/*.btn {
-  background: #a3bfaf;
-  background-image: -webkit-linear-gradient(top, #a3bfaf, #a3bfaf);
-  background-image: -moz-linear-gradient(top, #a3bfaf, #a3bfaf);
-  background-image: -ms-linear-gradient(top, #a3bfaf, #a3bfaf);
-  background-image: -o-linear-gradient(top, #a3bfaf, #a3bfaf);
-  background-image: linear-gradient(to bottom, #a3bfaf, #a3bfaf);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  width: 200px;
-  float: right;
-}
-
-.btn:hover {
-  background: #f2a285;
-  text-decoration: none;
-}
-*/
-
-/*<a href="http://chriscoyier.net" target="_blank">This link will open in new window/tab</a>*/
-
-/*.content_image
-{ 
-   position: relative; 
-   width: 100%;
-   opacity: 0.4;
-}
-
-h5 { 
-   position: absolute; 
-   top: 1px;
-   bottom: 1px;
-   left: 0; 
-   width: 100%; 
-   padding: 20px;
-   font-family: 'Roboto', sans-serif;
-   font-size: 56px;
-   font-weight: 100;
-   color: #f2f2f2;
-}
-
-h5 span { 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0);
-   background: rgba(0, 0, 0, 0.7);
-}
-*/
 
 
 
