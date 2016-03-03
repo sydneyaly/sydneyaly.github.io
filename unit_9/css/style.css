@@ -1,0 +1,360 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200|Work+Sans|Roboto:100);
+@import url(https://fonts.googleapis.com/css?family=Roboto:900);
+
+*{box-sizing:border-box;}
+
+body
+{
+	background-color: #f2f2f2;
+}
+
+h1,h2
+{
+	font-family: 'Roboto', sans-serif;
+	color: #f06060;
+	font-weight: 100;
+}
+
+h1 
+{
+	font-size: 30px;
+}
+
+h2
+{
+	font-size: 20px
+}
+
+nav
+{
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
+	width: 500px;
+}
+
+a
+{
+	color: #f06060;
+	text-decoration: none;
+	display: block;
+	padding: 23px;
+	float: left;
+	font-weight: 900;
+}
+
+nav
+a:hover 
+{
+	background-color: #8cbeb2;
+	opacity: 0.5;
+}
+
+p
+a:hover
+{
+	background-color: #8cbeb2;
+}
+
+section
+{
+	width: 1256px;
+	margin: auto;
+}
+
+section
+img {
+	width: 100%;
+	display: block;
+}
+
+.clearfix:after {
+	height:0;
+	font-size: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+.small 
+{
+	float: left;
+	height: 616px;
+	width: 308px;
+	overflow: hidden;
+	margin: 0 3px 6px;
+}
+
+.small img:nth-of-type(2){
+	margin-top: 6px;
+}
+
+
+.small
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #f2f2f2;
+	font-size: 32px;
+	text-align: left;
+	background-color: #727273;
+	line-height: 1.5em;
+	width:308px;
+	height: 50%;
+}
+
+#design
+{
+	margin: 0px;
+
+}
+
+#love
+{
+	margin-top: 0;
+	margin-right: 6px;
+	margin-bottom: 0;
+	margin-left: 0px;
+	padding: 0;
+	height: 616px;
+}
+
+#art
+{
+	font-size: 42px;
+	padding: 20px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 6px;
+}
+
+#custom
+{
+	font-size: 34px;
+	padding: 20px;
+	margin: 6px 0 0;
+}
+
+#ingredients
+{
+	font-size: 38px;
+	padding: 12px;
+	margin: 0 0 6px;
+}
+
+#retro
+{
+	margin-bottom: 6px;
+	padding: 0;
+}
+.large 
+{
+	float: left;
+	width: 622px;
+	height: 616px;
+	overflow:hidden;
+	margin: 0 3px 6px;
+
+}
+
+.large 
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #f2f2f2;
+	font-size: 82px;
+	text-align: left;
+	background-color: #727273;
+	padding: 40px;
+	width: 622px;
+	height: 616px;
+}
+
+.footer
+{
+	background-color: #727273;
+	font-size: 20px;
+	color:#ccc;
+	font-family: 'Roboto', sans-serif;
+	padding: 25px;
+	text-align: center;
+	width: 1250px;
+	margin: auto;
+}
+
+#title
+{
+	color: #f06060;
+	font-size: 32px;
+}
+
+#subtitle
+{
+	color: #f06060;
+	font-size: 28;
+}
+
+.social
+img
+{
+	height:70px;
+	width: 70px;
+	float: none;
+	margin: auto;
+	display: inline-block;
+}
+
+.footer
+a
+{
+	text-decoration: none;
+	display: inline;
+	float: none;
+	padding: 0;
+}
+
+p
+{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+@media only screen and (max-width: 1300px){
+	section 
+	{width: 900px;
+	}
+	.small{
+		width: 219px;
+		height: 444px;
+	}
+	.small p {
+		width: 219px;
+		height: 219px;
+	}
+	.large{
+		width: 444px;
+		height: 444px;
+	}
+	.large p {
+		width: 444px;
+		height: 444px;
+		font-size: 48px;
+	}
+	.footer {
+		width: 900px;
+	}
+	#social {
+		margin: auto;
+	}
+	#design{
+		font-size: 56px;
+	}
+	#art {
+		font-size: 28px;
+	}
+	#love {
+		height: 444px;
+	}
+	#custom {
+		font-size: 26px;
+	}
+	#ingredients {
+		font-size: 26px;
+	}
+	#retro {
+		
+	}
+	h1 {
+		font-size: 22px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	section 
+	{width: 606px;
+	}
+	.small {
+		width: 100%;
+		height: 50%;
+	}
+	.large {
+		width: 100%; 
+		height: 100%;
+	}
+	.large p {
+		width: 606px;
+		height: 606px;
+	}
+	#design {
+		font-size: 82px;
+	}
+
+	#love {
+		width: 606px;
+		height: 606px;
+	}
+	#art {
+		width: 606px;
+		height: 606px;
+		font-size: 82px;
+	}
+	#custom {
+		width: 606px;
+		height: 606px;
+		font-size: 78px;
+	}
+	#ingredients {
+		width: 606px;
+		height: 606px;
+		font-size: 78px;
+	}
+	.footer {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 630px) {
+	section 
+	{width: 400px;
+	}
+	.small {
+		width: 100%;
+		height: 50%;
+	}
+	.large {
+		width: 100%; 
+		height: 100%;
+	}
+	.large p {
+		width: 400px;
+		height: 400px;
+	}
+	#love {
+		width: 400px;
+		height: 400px;
+	}
+	#art {
+		width: 400px;
+		height: 400px;
+	}
+	#custom {
+		width: 400px;
+		height: 400px;
+	}
+	#ingredients {
+		width: 400px;
+		height: 400px;
+	}
+	.footer {
+		width: 100%;
+	}
+}
+
+
+
+
