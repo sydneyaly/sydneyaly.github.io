@@ -338,17 +338,23 @@ p
 		width: 400px;
 		height: 400px;
 	}
+	#design {
+		font-size: 50px;
+	}
 	#art {
 		width: 400px;
 		height: 400px;
+		font-size: 52px;
 	}
 	#custom {
 		width: 400px;
 		height: 400px;
+		font-size: 50px;
 	}
 	#ingredients {
 		width: 400px;
 		height: 400px;
+		font-size: 50px;
 	}
 	.footer {
 		width: 100%;
