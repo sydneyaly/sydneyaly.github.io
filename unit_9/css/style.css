@@ -32,7 +32,7 @@ nav
 	width: 500px;
 }
 
-a
+nav a
 {
 	color: #f06060;
 	text-decoration: none;
@@ -48,6 +48,13 @@ a:hover
 	background-color: #8cbeb2;
 	opacity: 0.5;
 }
+#toggle {
+	display: none;
+}
+
+label {
+	display: none;
+}
 
 p
 a:hover
@@ -57,7 +64,7 @@ a:hover
 
 section
 {
-	width: 1256px;
+	width: 1156px;
 	margin: auto;
 }
 
@@ -79,8 +86,8 @@ img {
 .small 
 {
 	float: left;
-	height: 616px;
-	width: 308px;
+	height: 566px;
+	width: 283px;
 	overflow: hidden;
 	margin: 0 3px 6px;
 }
@@ -98,7 +105,7 @@ p {
 	text-align: left;
 	background-color: #727273;
 	line-height: 1.5em;
-	width:308px;
+	width:283px;
 	height: 50%;
 }
 
@@ -150,8 +157,8 @@ p {
 .large 
 {
 	float: left;
-	width: 622px;
-	height: 616px;
+	width: 572px;
+	height: 566px;
 	overflow:hidden;
 	margin: 0 3px 6px;
 
@@ -165,8 +172,8 @@ p {
 	text-align: left;
 	background-color: #727273;
 	padding: 40px;
-	width: 622px;
-	height: 616px;
+	width: 572px;
+	height: 566px;
 }
 
 .footer
@@ -221,7 +228,7 @@ p
 
 }
 
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1200px){
 	section 
 	{width: 900px;
 	}
@@ -358,6 +365,29 @@ p
 	}
 	.footer {
 		width: 100%;
+	}
+
+	label {
+		display: block;
+		width: 100%;
+		text-align: center;
+		color: #f06060;
+		padding: 23px;
+		font-weight: 900;
+	}
+
+	nav {
+		display: none;
+	}
+
+	nav a
+{
+	float: none;
+	text-align: center;
+}
+
+	#toggle:checked + nav {
+		display: block;
 	}
 }
 
